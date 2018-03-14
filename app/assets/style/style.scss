@@ -1,0 +1,37 @@
+// TODO: Add @font-face for fonts
+
+body {
+  font-family: 'AvenirNext-Regular';
+  font-size: 25px;
+}
+
+.bus-line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: 40;
+
+  &__start-number {
+    font-family: 'AvenirNext-Heavy';
+    fill: #fff;
+    font-size: 72px;
+  }
+
+  &__start-title {
+    font-family: 'AvenirNext-Heavy';
+    font-size: 60px;
+  }
+
+  &__stop-dot {
+    &--main {
+      fill: #000;
+    }
+  }
+
+  &__stop--main {
+    fill: #fff;
+    font-family: 'AvenirNext-Heavy';
+    font-size: 52px;
+  }
+}

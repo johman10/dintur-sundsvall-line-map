@@ -1,0 +1,11 @@
+.arrow {
+  stroke: black;
+
+  &__line {
+    stroke-width: 4;
+  }
+
+  &__point {
+    stroke-width: 2;
+  }
+}
