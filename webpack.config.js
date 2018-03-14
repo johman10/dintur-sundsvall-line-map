@@ -17,9 +17,10 @@ const config = {
   resolve: {
     alias: {
       containers: resolve(__dirname, 'app/containers'),
-      components: resolve(__dirname, 'app/components')
+      components: resolve(__dirname, 'app/components'),
+      style: resolve(__dirname, 'app/assets/style')
     },
-    extensions: ['.json', '.js', '.jsx']
+    extensions: ['.json', '.js', '.jsx', '.scss']
   },
 
   entry: [
@@ -60,6 +61,7 @@ const config = {
               options: {
                 modules: true,
                 importLoaders: true,
+                includePaths: [resolve(__dirname, 'app/assets/modules')],
                 localIdentName: '[path][name]__[local]--[hash:base64:5]'
               }
             },

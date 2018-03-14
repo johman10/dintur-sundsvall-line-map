@@ -1,5 +1,7 @@
+@import "~style/modules/colors";
+
 .train {
   &__detail {
-    fill: #fff;
+    fill: $color-white;
   }
 }

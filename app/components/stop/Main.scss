@@ -1,0 +1,12 @@
+@import "~style/modules/colors";
+
+.main {
+  fill: $color-white;
+  font-family: 'AvenirNext-Heavy';
+  font-size: 52px;
+
+  &__dot {
+    fill: $color-black;
+
+  }
+}

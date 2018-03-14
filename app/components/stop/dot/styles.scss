@@ -1,4 +1,6 @@
+@import "~style/modules/colors";
+
 .dot {
-  fill: white;
-  stroke: black;
+  fill: $color-white;
+  stroke: $color-black;
 }

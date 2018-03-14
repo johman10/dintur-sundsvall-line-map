@@ -1,5 +1,7 @@
+@import "~style/modules/colors";
+
 .arrow {
-  stroke: black;
+  stroke: $color-black;
 
   &__line {
     stroke-width: 4;

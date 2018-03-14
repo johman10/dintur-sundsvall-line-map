@@ -1,0 +1,62 @@
+@import "~style/modules/colors";
+
+.line {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: 40;
+
+  &--1 {
+    stroke: $color-line--1;
+  }
+
+  &--2 {
+    stroke: $color-line--2;
+  }
+
+  &--3 {
+    stroke: $color-line--3;
+  }
+
+  &--4 {
+    stroke: $color-line--4;
+  }
+
+  &--5 {
+    stroke: $color-line--5;
+  }
+
+  &__start-circle {
+    &--1 {
+      fill: $color-line--1;
+    }
+
+    &--2 {
+      fill: $color-line--2;
+    }
+
+    &--3 {
+      fill: $color-line--3;
+    }
+
+    &--4 {
+      fill: $color-line--4;
+    }
+
+    &--5 {
+      fill: $color-line--5;
+    }
+  }
+
+  &__start-number {
+    font-family: 'AvenirNext-Heavy';
+    fill: #fff;
+    font-size: 72px;
+  }
+
+  &__start-title {
+    font-family: 'AvenirNext-Heavy';
+    font-size: 60px;
+  }
+}
