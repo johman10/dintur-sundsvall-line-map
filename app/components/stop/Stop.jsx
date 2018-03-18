@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from 'components/stop/dot/styles.scss';
+import styles from 'components/stop/Stop.scss';
 
 import StopDotSingle from 'components/stop/dot/Single';
 import StopDotDouble from 'components/stop/dot/Double';
@@ -21,15 +21,17 @@ Stop.propTypes = {
   labelX: PropTypes.number.isRequired,
   labelY: PropTypes.number.isRequired,
   labelText: PropTypes.string.isRequired,
-  labelTransform: PropTypes.string
+  labelTransform: PropTypes.string,
+  textColor: PropTypes.string
 }
 
-export default function Stop ({ dotX, dotY, dotType = 'Single', labelX, labelY, labelText, dotSize, dotTransform, labelTransform }) {
+export default function Stop ({ dotX, dotY, dotType = 'Single', labelX, labelY, labelText, dotSize, dotTransform, labelTransform, textColor = 'black' }) {
   const StopDot = dotTypes[dotType];
+  const textClass = styles[`stop__text--${textColor}`];
   return (
     <g>
       <StopDot x={dotX} y={dotY} size={dotSize} transform={dotTransform} />
-      <text x={labelX} y={labelY} transform={labelTransform}>{labelText}</text>
+      <text x={labelX} y={labelY} transform={labelTransform} class={textClass}>{labelText}</text>
     </g>
   )
 }

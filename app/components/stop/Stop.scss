@@ -1,0 +1,9 @@
+@import "~style/modules/colors";
+
+.stop {
+  &__text {
+    &--white {
+      fill: $color-white;
+    }
+  }
+}

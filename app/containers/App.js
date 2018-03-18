@@ -65,7 +65,7 @@ export default class App extends Component {
         <Stop dotX="2700" dotY="1042.4" labelX="2728.3" labelY="1067" labelText="Fillan" dotType="Double" />
 
         // TODO: Make this text white
-        <Stop dotX="2739" dotY="549" dotSize="46" labelX="2773.7" labelY="573.7" labelText="Östra Birsta" class="white" dotType="Double" />
+        <Stop dotX="2739" dotY="549" dotSize="46" labelX="2773.7" labelY="573.7" labelText="Östra Birsta" textColor="white" dotType="Double" />
       </svg>
     );
   }
