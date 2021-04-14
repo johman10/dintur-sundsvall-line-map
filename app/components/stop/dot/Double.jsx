@@ -12,6 +12,8 @@ Double.propTypes = {
 export default function Double ({ x, y, size = 27, transform }) {
   const d = `M ${x} ${y} c -6 0 -12 4 -14 10 h -${size} a 14 14 0 1 0 0 9 h ${size} a 14 14 0 1 0 14 -19z`
   return (
-    <path class={styles.dot} d={d} transform={transform} />
+    <svg>
+      <path class={styles.dot} d={d} transform={transform} />
+    </svg>
   );
 }

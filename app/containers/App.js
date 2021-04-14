@@ -56,9 +56,9 @@ export default class App extends Component {
 
         <Stop dotX="2408.3" dotY="609" labelX="2168.8" labelY="631.7" labelText="Birstatunneln" dotType="Double" />
 
-        <Stop dotX="2408.3" dotY="653" labelX="2177" labelY="719.3" labelText="Gesällvägen" dotType="Double" />
+        <Stop dotX="2408.3" dotY="653" labelX="2203.8" labelY="676" labelText="Birsta City" dotType="Double" />
 
-        <Stop dotX="2408.3" dotY="697" labelX="2203.8" labelY="676" labelText="Birsta City" dotType="Double" />
+        <Stop dotX="2408.3" dotY="697" labelX="2177" labelY="719.3" labelText="Gesällvägen" dotType="Double" />
 
         <Stop dotX="2539.3" dotY="773.3" dotTransform="rotate(90 2539.3 773.3)" labelX="2570" labelY="788.7" labelText="Klökanvägen" dotType="Double" />
 

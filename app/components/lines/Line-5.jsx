@@ -12,15 +12,15 @@ export default function Line5 () {
       <text class={styles['line__start-number']} x="2521" y="188.5">5</text>
       <text class={styles['line__start-title']} x="2633.7" y="185">Gångviken</text>
 
-      <Stop dotX="2548" dotY="259" labelX="2307.4" labelY="394" labelText="Johannedalsvägen" />
+      <Stop dotX="2548" dotY="259" labelX="2324.6" labelY="266.6" labelText="Gångvikens skola" />
 
       <Stop dotX="2548" dotY="301.6" labelX="2307" labelY="309" labelText="Fyrväpplingsvägen" />
 
-      <Stop dotX="2548" dotY="344" labelX="2324.6" labelY="266.6" labelText="Gångvikens skola" />
+      <Stop dotX="2548" dotY="344" labelX="2374.8" labelY="351.6" labelText="Sundsbruk C" />
 
-      <Stop dotX="2548" dotY="386.6" labelX="2344" labelY="436.7" labelText="Västlandsvägen" />
+      <Stop dotX="2548" dotY="386.6" labelX="2307.4" labelY="394" labelText="Johannedalsvägen" />
 
-      <Stop dotX="2548" dotY="429" labelX="2374.8" labelY="351.6" labelText="Sundsbruk C" />
+      <Stop dotX="2548" dotY="429" labelX="2344" labelY="436.7" labelText="Västlandsvägen" />
 
       <Stop dotX="2548" dotY="471.6" labelX="2387.7" labelY="479" labelText="Birstavägen" />
 
